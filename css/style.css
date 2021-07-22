@@ -301,16 +301,16 @@ img {
     padding-bottom: 47px;
     color: var(--main-color);
     flex-basis: calc((100% - 120px) / 4);
-
   }
+
   .overlay-description {
     position: relative;
   }
+
     .overlay-photo {
     font-weight: 700;
     text-transform: uppercase;
     color: var(--other-color);
-    text-align: center;
     width: 370px;
     height: 70px;
     padding-top: 27px;
@@ -319,6 +319,13 @@ img {
     position: absolute;
     right: 0;
     bottom: 0;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
   }
 
   .advantages-title {
