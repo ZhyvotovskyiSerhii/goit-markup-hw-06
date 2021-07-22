@@ -662,6 +662,7 @@ img {
     color: #ffffff;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 0;
   }
   .button.footer-button {
     margin-top: 0;
@@ -858,7 +859,7 @@ img {
     left: 50%;
     top: 50%;
     width: 528px;
-    height: 581px;
+    height: auto;
     padding: 40px;
     background: var(--white);
     transform: translate(-50%, -50%);
